@@ -1,7 +1,7 @@
 <?php
 
 $translations = [
-    'homepage.banner.contact' => 'Napisz do nas!',
+    'homepage.banner.contact' => 'Zapytaj o termin i cenę!',
     'homepage.banner.listen' => 'Posłuchaj nas!',
     'homepage.banner.description' => 'Profesjonalna obsługa imprez',
     'homepage.banner.title' => 'Songo and Zuza',
