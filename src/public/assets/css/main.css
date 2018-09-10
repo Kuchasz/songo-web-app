@@ -2367,14 +2367,15 @@
 
 					.box .image.featured .people .person span {
 						background-color: black;
-						color: white;
+						color: black;
 						width: 100%;
 						transform: translateY(100%);
-						transition: transform 0.25s ease-out;
+						transition: all 0.25s ease;
 					}
 
 					.box .image.featured .people .person:hover span {
 						transform: none;
+						color: white;
 					}
 
 			.box .image.featured .people .person:hover {
