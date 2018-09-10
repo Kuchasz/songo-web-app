@@ -2381,7 +2381,7 @@
 				filter: grayscale(100);
 			}
 
-			/* .box .image.featured:first-child {
+			.box .image.featured:first-child {
 				border-radius: 6px 6px 0 0;
 				margin-bottom: 3em;
 				margin-top: -3em;
@@ -2389,7 +2389,7 @@
 
 				.box .image.featured:first-child img {
 					border-radius: 6px 6px 0 0;
-				} */
+				}
 
 			.box .image.featured:last-child {
 				border-radius: 0 0 6px 6px;
