@@ -53,12 +53,15 @@
 
 			<!-- Banner -->
 				<section id="banner">
-                    <h2>{{ 'homepage.banner.title' |translate }}</h2>
-					<p>{{ 'homepage.banner.description' |translate }}</p>
-					<ul class="actions special">
-						<li><a href="#" class="button primary">{{ 'homepage.banner.listen' |translate}}</a></li>
-						<li><a href="#" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
-					</ul>
+                   <div class="content"> 
+					   <h2>{{ 'homepage.banner.title' |translate }}</h2>
+						<p>{{ 'homepage.banner.description' |translate }}</p>
+						<ul class="actions special">
+							<li><a href="#" class="button primary">{{ 'homepage.banner.listen' |translate}}</a></li>
+							<li><a href="#" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
+						</ul>
+					</div>
+					<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
 				</section>
 
 			<!-- Main -->

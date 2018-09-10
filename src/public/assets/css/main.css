@@ -3183,16 +3183,41 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+		position: relative;
+		overflow: hidden;
 	}
+
+		@keyframes zoomInOut {
+			from {
+				transform: scale(1);
+			}
+		
+			to {
+				transform: scale(1.2);
+			}
+		}
+
+		#banner .bg {
+			background-attachment: scroll,							fixed;
+			background-color: #666;
+			background-position: center;
+			background-repeat: repeat,							no-repeat;
+			background-size: cover;
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			top: 0px;
+
+			animation-duration: 15s;
+			animation-name: zoomInOut;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -3897,7 +3922,7 @@
 
 		/* Banner */
 
-			#banner {
+			#banner .content{
 				padding: 5em 3em 4em 3em;
 			}
 
