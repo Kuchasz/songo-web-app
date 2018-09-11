@@ -5,8 +5,17 @@ use Phalcon\Mvc\Controller;
 class IndexController extends Controller{
     public function indexAction() {
 
-        $this->view->ddd = $this->locale->getTranslator()->_('homepage.title');
+        $news = simplexml_load_file(__DIR__.'/../data/files/newsy.xml');
 
-       $this->view->locale = $this->locale->_;;
+        $output = [];
+
+        foreach ($news as $new){
+            array_push($output, new News($new));
+        }
+
+        $this->view->firstNews = $output[0];
+        $this->view->secondNews = $output[1];
+
+       return $this->view->locale = $this->locale;
     }
 }

@@ -5,7 +5,8 @@ use Phalcon\Loader;
 $loader = new Loader();
 $loader->registerDirs([
     '../app/controllers/',
-    '../core/'
+    '../core/',
+    '../app/data/entities/'
 ]);
 
 $loader->register();

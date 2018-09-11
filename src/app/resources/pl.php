@@ -13,6 +13,9 @@ $translations = [
     'homepage.features.voices.text' => 'Wszyscy jesteśmy wykształceni muzycznie, bez problemu przygotujemy utwory na daną uroczystość, nawet jeśli jeszcze niema ich w naszym repertuarze.',
     'homepage.features.transport.header' => 'Własny transport',
     'homepage.features.transport.text' => 'Dysponujemy własnym transportem, zawsze dotrzemy na czas. Odległość nie jest dla nas problemem.',
+    'homepage.learnMore' => 'Czytaj dalej',
+    'link.learnMore.text' => 'Aby dowiedzieć się więcej',
+    'link.learnMore.anchor' => 'kliknij tutaj.',
     'homepage.major.title' => "Jeśli szukasz dobrej zabawy i muzyki<br/>na najwyższym poziomie to dobrze trafiłeś :)",
     'homepage.major.description' => 'Jesteśmy zespołem wokalno-instrumentalnym złożonym <br/>z profesjonalnych muzyków grających 100% muzyki na żywo.',
     'menu.home' => 'Home',
@@ -25,5 +28,5 @@ $translations = [
     'menu.movies' => 'Filmy',
     'menu.contact' => 'Kontakt',
     'menu.links' => 'Linki',
-    'copyrights' => '&copy; SongoAndZuza.pl'
+    'copyrights' => '&copy; songoandzuza.pl'
 ];

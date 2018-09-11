@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sprzeta>
+	<sprzet>
+		<kategoria>INSTRUMENTY</kategoria>
+		<elementy>
+			<element>
+				<nazwa>Yamaha 211 SII</nazwa>
+				<pod_nazwa>Flet poprzeczny</pod_nazwa>
+				<zdjecie>flet_poprzeczny_yamaha_211_sii</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha YRA-802</nazwa>
+				<pod_nazwa>Flet prosty</pod_nazwa>
+				<zdjecie>flet_prosty_yamaha_yra-802</zdjecie>
+			</element>
+			<element>
+				<nazwa>FP-15</nazwa>
+				<pod_nazwa>Fletnia pana</pod_nazwa>
+				<zdjecie>fletnia_pana_fp-15</zdjecie>
+			</element>
+			<element>
+				<nazwa>Hohner 54220MS-C GoldenMelody</nazwa>
+				<pod_nazwa>Harmonijka ustna</pod_nazwa>
+				<zdjecie>harmonijka_ustna_hohner_54220ms-c_golden_melody</zdjecie>
+			</element>
+			<element>
+				<nazwa>Buffet E13</nazwa>
+				<pod_nazwa>Klarnet</pod_nazwa>
+				<zdjecie>klarnet_buffet_e_13</zdjecie>
+			</element>
+			<element>
+				<nazwa>Selmer II SuperAction</nazwa>
+				<pod_nazwa>Saksofon altowy</pod_nazwa>
+				<zdjecie>saxofon_altowy_selmer_ii_super_action</zdjecie>
+			</element>
+			<element>
+				<nazwa>Selmer Mark VI</nazwa>
+				<pod_nazwa>Saksofon barytonowy</pod_nazwa>
+				<zdjecie>saxofon_barytonowy_selmer_mark_vi</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha Custom</nazwa>
+				<pod_nazwa>Saksofon sopranowy</pod_nazwa>
+				<zdjecie>saxofon_sopranowy_yamaha_custom</zdjecie>
+			</element>
+			<element>
+				<nazwa>Selmer Reference 54</nazwa>
+				<pod_nazwa>Saksofon tenorowy</pod_nazwa>
+				<zdjecie>saxofon_tenorowy_selmer_reference_54</zdjecie>
+			</element>
+			<element>
+				<nazwa>Selmer Signet II</nazwa>
+				<pod_nazwa>Saksofon tenorowy</pod_nazwa>
+				<zdjecie>saxofon_tenorowy_selmer_signet_ii</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha YTR-8310Z</nazwa>
+				<pod_nazwa>Trąbka</pod_nazwa>
+				<zdjecie>trabka_yamaha_ytr-8310z</zdjecie>
+			</element>
+			<element>
+				<nazwa>Hohner 1926r.</nazwa>
+				<pod_nazwa>Akordeon</pod_nazwa>
+				<zdjecie>akordeon_hohner_1926r</zdjecie>
+			</element>
+			<element>
+				<nazwa>Weltmeister Consona</nazwa>
+				<pod_nazwa>Akordeon</pod_nazwa>
+				<zdjecie>akordeon_weltmeister_consona</zdjecie>
+			</element>
+			<element>
+				<nazwa>Roland VA-5</nazwa>
+				<pod_nazwa>Keyboard</pod_nazwa>
+				<zdjecie>keyboard_roland_va-5</zdjecie>
+			</element>
+			<element>
+				<nazwa>Roland AX-1</nazwa>
+				<pod_nazwa>Keytar</pod_nazwa>
+				<zdjecie>keytar_roland_ax-1</zdjecie>
+			</element>
+			<element>
+				<nazwa>Roland Juno-106</nazwa>
+				<pod_nazwa>Klawisz analogowy</pod_nazwa>
+				<zdjecie>klawisz_analogowy_roland_juno-106</zdjecie>
+			</element>
+			<element>
+				<nazwa>Roland Rd-700sx</nazwa>
+				<pod_nazwa>Pianino cyfrowe</pod_nazwa>
+				<zdjecie>pianino_cyfrowe_roland_rd-700sx</zdjecie>
+			</element>
+			<element>
+				<nazwa>Bęben orkiestrowy</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>beben_orkiestrowy</zdjecie>
+			</element>
+			<element>
+				<nazwa>Instrumenty perkusyjne</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>instrumenty_perkusyjne</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha</nazwa>
+				<pod_nazwa>Ksylofon</pod_nazwa>
+				<zdjecie>ksylofon_yamaha</zdjecie>
+			</element>
+			<element>
+				<nazwa>Pearl Reference</nazwa>
+				<pod_nazwa>Perkusja akustyczna</pod_nazwa>
+				<zdjecie>perkusja_akustyczna_pearl_reference</zdjecie>
+			</element>
+			<element>
+				<nazwa>Roland TD-8</nazwa>
+				<pod_nazwa>Perkusja elektroniczna</pod_nazwa>
+				<zdjecie>perkusja_elektroniczna_roland_td-8</zdjecie>
+			</element>
+			<element>
+				<nazwa>Bouzoki</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>bouzoki</zdjecie>
+			</element>
+			<element>
+				<nazwa>Cort AD810-ns</nazwa>
+				<pod_nazwa>Gitara akustyczna</pod_nazwa>
+				<zdjecie>gitara_akustyczna_cort-ad810-ns</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha BBG5</nazwa>
+				<pod_nazwa>Gitara basowa</pod_nazwa>
+				<zdjecie>gitara_basowa_yamaha_bbg5</zdjecie>
+			</element>
+			<element>
+				<nazwa>Yamaha Pacifica 112V</nazwa>
+				<pod_nazwa>Gitara elektryczna</pod_nazwa>
+				<zdjecie>gitara_elektryczna_yamaha_pacifica_112v</zdjecie>
+			</element>
+			<element>
+				<nazwa>Gitara hawajska</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>gitara_hawajska</zdjecie>
+			</element>
+			<element>
+				<nazwa>Kontrabas</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>kontrabas</zdjecie>
+			</element>
+			<element>
+				<nazwa>Korg EC-100H</nazwa>
+				<pod_nazwa>Pianino Klawiszowe</pod_nazwa>
+				<zdjecie>pianino_klawiszowe_korg_ec-100h</zdjecie>
+			</element>
+		</elementy>
+	</sprzet>
+	<sprzet>
+		<kategoria>OŚWIETLENIE</kategoria>
+		<elementy>
+			<element>
+				<nazwa>American DJ Vertigo-200</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>american-dj-vertigo-200</zdjecie>
+			</element>
+			<element>
+				<nazwa>Botex CN-100</nazwa>
+				<pod_nazwa>Sterownik stroboskopu</pod_nazwa>
+				<zdjecie>botex_cn-100</zdjecie>
+			</element>
+			<element>
+				<nazwa>Ctrl - DC+ Laser Show System</nazwa>
+				<pod_nazwa>Efekt laserowy</pod_nazwa>
+				<zdjecie>ctl_-_dc__-_laser_show_system</zdjecie>
+			</element>
+			<element>
+				<nazwa>DMX 512 Operator</nazwa>
+				<pod_nazwa>Sterownik efektów</pod_nazwa>
+				<zdjecie>dmx_-_512_operator</zdjecie>
+			</element>
+			<element>
+				<nazwa>Ecstasy Color Light ECL 660S</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>ecstasy_color_light_ecl_660s</zdjecie>
+			</element>
+			<element>
+				<nazwa>Eurolight Led KLS-200</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>eurolight_led_kls-200</zdjecie>
+			</element>
+			<element>
+				<nazwa>Eurolite B-20 Double Ball</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>eurolite_b-20_double_ball</zdjecie>
+			</element>
+			<element>
+				<nazwa>Eurolite Chaser 405 IEC</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>eurolite_chaser_405_iec</zdjecie>
+			</element>
+			<element>
+				<nazwa>FL-150</nazwa>
+				<pod_nazwa>Głowica ruchoma</pod_nazwa>
+				<zdjecie>glowica_ruchoma_fl-150</zdjecie>
+			</element>
+			<element>
+				<nazwa>Martin CX-2 ColorChanger</nazwa>
+				<pod_nazwa>Efekt świetlny</pod_nazwa>
+				<zdjecie>martin_cx-2_colorchanger</zdjecie>
+			</element>
+			<element>
+				<nazwa>Mini Laser Show System</nazwa>
+				<pod_nazwa>Efekt laserowy</pod_nazwa>
+				<zdjecie>mini_laser_show_system</zdjecie>
+			</element>
+			<element>
+				<nazwa>Rampa oświetleniowa</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>rampa-oswietleniowa</zdjecie>
+			</element>
+			<element>
+				<nazwa>Stroboskop</nazwa>
+				<pod_nazwa></pod_nazwa>
+				<zdjecie>stroboskop</zdjecie>
+			</element>
+			<element>
+				<nazwa>FOG-1000</nazwa>
+				<pod_nazwa>Wytwornica dymu</pod_nazwa>
+				<zdjecie>wytwornica_dymu_fog-1000</zdjecie>
+			</element>
+		</elementy>
+	</sprzet>
+	<sprzet>
+		<kategoria>NAGŁOŚNIENIE</kategoria>
+		<elementy>
+			<element>
+				<nazwa>Behringer - MDX 1400</nazwa>
+				<pod_nazwa>Compressor/limiter</pod_nazwa>
+				<zdjecie>behringer-mdx1400</zdjecie>
+			</element>
+			<element>
+				<nazwa>Behringer PRO-XL MDX 1600</nazwa>
+				<pod_nazwa>Procesor dynamiki</pod_nazwa>
+				<zdjecie>behringer_pro-xl_mdx_1600</zdjecie>
+			</element>
+			<element>
+				<nazwa>Behringer Ultra Fex Pro</nazwa>
+				<pod_nazwa>Compressor</pod_nazwa>
+				<zdjecie>behringer_ultra_fex_pro</zdjecie>
+			</element>
+			<element>
+				<nazwa>DBX</nazwa>
+				<pod_nazwa>Noise Gate</pod_nazwa>
+				<zdjecie>dbx</zdjecie>
+			</element>
+			<element>
+				<nazwa>Dod 512</nazwa>
+				<pod_nazwa>Reverb</pod_nazwa>
+				<zdjecie>dod_512_reverb</zdjecie>
+			</element>
+			<element>
+				<nazwa>Mackie SMR 450</nazwa>
+				<pod_nazwa>Kolumny aktywne</pod_nazwa>
+				<zdjecie>mackie_smr_450</zdjecie>
+			</element>
+			<element>
+				<nazwa>Cerwin-Vega V-153</nazwa>
+				<pod_nazwa>Kolumny aktywne</pod_nazwa>
+				<zdjecie>cerwin-vega_v-153</zdjecie>
+			</element>
+			<element>
+				<nazwa>Jolly Rodger LPA20, LPA30</nazwa>
+				<pod_nazwa>Końcówka mocy</pod_nazwa>
+				<zdjecie>jolly_rodger_lpa20_lpa30</zdjecie>
+			</element>
+			<element>
+				<nazwa>Lexicon - MPX 110</nazwa>
+				<pod_nazwa>Processor</pod_nazwa>
+				<zdjecie>lexicon-mpx_110</zdjecie>
+			</element>
+			<element>
+				<nazwa>AKG C419L</nazwa>
+				<pod_nazwa>Mikrofon</pod_nazwa>
+				<zdjecie>akg_c_419_l</zdjecie>
+			</element>
+			<element>
+				<nazwa>Shure SM58</nazwa>
+				<pod_nazwa>Mikrofony</pod_nazwa>
+				<zdjecie>shure_sm58</zdjecie>
+			</element>
+			<element>
+				<nazwa>Sennheiser E840S</nazwa>
+				<pod_nazwa>Mikrofony</pod_nazwa>
+				<zdjecie>sennheiser-e-840-s</zdjecie>
+			</element>
+			<element>
+				<nazwa>Behringer Eurorack MX 1804X</nazwa>
+				<pod_nazwa>Mixer</pod_nazwa>
+				<zdjecie>behringer_eurorack_mx_1804x</zdjecie>
+			</element>
+			<element>
+				<nazwa>Mackie 1604-VLZ-PRO</nazwa>
+				<pod_nazwa>Mixer</pod_nazwa>
+				<zdjecie>mackie-1604-vlz-pro</zdjecie>
+			</element>
+			<element>
+				<nazwa>Soundcraft FMX-20</nazwa>
+				<pod_nazwa>Mixer</pod_nazwa>
+				<zdjecie>soundcraft-fmx-20</zdjecie>
+			</element>
+			<element>
+				<nazwa>Peavey Combo 300 Bass</nazwa>
+				<pod_nazwa>Wzmacniacz basowy</pod_nazwa>
+				<zdjecie>peavey_combo_300_bass</zdjecie>
+			</element>
+			<element>
+				<nazwa>Podłoga z efektami do saxofonu</nazwa>
+				<pod_nazwa>Efekty</pod_nazwa>
+				<zdjecie>podloga_z_efektami_do_saxofonu</zdjecie>
+			</element>
+			<element>
+				<nazwa>Eminence  2x800</nazwa>
+				<pod_nazwa>Subbasy</pod_nazwa>
+				<zdjecie>eminence_2x800</zdjecie>
+			</element>
+			<element>
+				<nazwa>AKG WMS40pro</nazwa>
+				<pod_nazwa>System bezprzewodowy</pod_nazwa>
+				<zdjecie>akg_wms40pro</zdjecie>
+			</element>
+			<element>
+				<nazwa>Alphard - ETP 757</nazwa>
+				<pod_nazwa>System bezprzewodowy</pod_nazwa>
+				<zdjecie>alphard_etp_757</zdjecie>
+			</element>
+			<element>
+				<nazwa>Shure L4</nazwa>
+				<pod_nazwa>System bezprzewodowy</pod_nazwa>
+				<zdjecie>shure-l4</zdjecie>
+			</element>
+			<element>
+				<nazwa>Zoom 505-II</nazwa>
+				<pod_nazwa>Procesor gitarowy</pod_nazwa>
+				<zdjecie>zoom-505-ii</zdjecie>
+			</element>
+			<element>
+				<nazwa>Rack Case</nazwa>
+				<pod_nazwa>Skrzynia transportowa</pod_nazwa>
+				<zdjecie>rack_case</zdjecie>
+			</element>
+			<element>
+				<nazwa>Neumann K-105</nazwa>
+				<pod_nazwa>Mikrofon</pod_nazwa>
+				<zdjecie>neuman_k_105</zdjecie>
+			</element>
+			<element>
+				<nazwa>AKG wms 40 mini pro-2</nazwa>
+				<pod_nazwa>System bezprzewodowy do gitary</pod_nazwa>
+				<zdjecie>akg_wms_40_mini_pro_2</zdjecie>
+			</element>
+		</elementy>
+	</sprzet>
+</sprzeta>
