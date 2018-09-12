@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+a:3:{i:0;s:2594:"<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -15,16 +15,16 @@
 		<header id="header" class="alt">
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">{{ 'menu.home' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.about' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.devices' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.offer' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.history' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.gallery' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.repertoire' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.movies' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.contact' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.links' |translate}}</a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.home') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.about') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.devices') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.offer') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.history') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.gallery') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.repertoire') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.movies') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.contact') ?></a></li>
+					<li><a href="index.html"><?= LocaleHelper::translate('menu.links') ?></a></li>
 					<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
 								<ul>
@@ -51,17 +51,17 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="content">
-				<h2>{{ 'homepage.banner.title' |translate }}</h2>
-				<p>{{ 'homepage.banner.description' |translate }}</p>
+				<h2><?= LocaleHelper::translate('homepage.banner.title') ?></h2>
+				<p><?= LocaleHelper::translate('homepage.banner.description') ?></p>
 				<ul class="actions special">
-					<li><a href="#" class="button primary">{{ 'homepage.banner.listen' |translate}}</a></li>
-					<li><a href="#" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
+					<li><a href="#" class="button primary"><?= LocaleHelper::translate('homepage.banner.listen') ?></a></li>
+					<li><a href="#" class="button"><?= LocaleHelper::translate('homepage.banner.contact') ?></a></li>
 				</ul>
 			</div>
-			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
+			<div class="bg" style="background-image: url('../../images/banner-<?= time() % 4 ?>.jpg')"></div>
 		</section>
 
-		{% block content %}{% endblock %}
+		";s:7:"content";N;i:1;s:1213:"
 
 		<!-- CTA -->
 		<!-- <section id="cta">
@@ -88,7 +88,7 @@
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 			</ul>
 			<ul class="copyright">
-				<li>{{ 'copyrights' |translate}}</li>
+				<li><?= LocaleHelper::translate('copyrights') ?></li>
 			</ul>
 		</footer>
 
@@ -105,4 +105,4 @@
 
 </body>
 
-</html>
+</html>";}

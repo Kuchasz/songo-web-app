@@ -33,6 +33,8 @@ $di->set(
             ]
         );
 
+        $view->setRenderLevel(\Phalcon\Mvc\View::LEVEL_ACTION_VIEW);
+
         return $view;
     }, true
 );

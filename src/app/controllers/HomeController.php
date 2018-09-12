@@ -2,7 +2,7 @@
 
 use Phalcon\Mvc\Controller;
 
-class IndexController extends Controller{
+class HomeController extends Controller{
     public function indexAction() {
 
         $news = simplexml_load_file(__DIR__.'/../data/files/newsy.xml');
@@ -16,6 +16,6 @@ class IndexController extends Controller{
         $this->view->firstNews = $output[0];
         $this->view->secondNews = $output[1];
 
-       return $this->view->locale = $this->locale;
+        return $this->view->locale = $this->locale;
     }
 }
