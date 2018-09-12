@@ -8,14 +8,14 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="landing is-preload">
+<body class="{% block menu %}landing{% endblock %} is-preload">
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" class="alt">
+		<header id="header" {% block header %}class="alt"{% endblock %}>
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">{{ 'menu.home' |translate}}</a></li>
+					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.about' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.devices' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.offer' |translate}}</a></li>
@@ -49,6 +49,7 @@
 		</header>
 
 		<!-- Banner -->
+		{% block banner %}
 		<section id="banner">
 			<div class="content">
 				<h2>{{ 'homepage.banner.title' |translate }}</h2>
@@ -60,8 +61,12 @@
 			</div>
 			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
 		</section>
+		{% endblock%}
 
-		{% block content %}{% endblock %}
+		<!-- Main -->
+		<section id="main" class="container">
+			{% block content %}{% endblock %}
+		</section>
 
 		<!-- CTA -->
 		<!-- <section id="cta">

@@ -1,4 +1,4 @@
-a:3:{i:0;s:2594:"<!DOCTYPE HTML>
+a:9:{i:0;s:267:"<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -8,14 +8,14 @@ a:3:{i:0;s:2594:"<!DOCTYPE HTML>
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="landing is-preload">
+<body class="";s:4:"menu";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:7:"landing";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:11;}}i:1;s:84:" is-preload">
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" class="alt">
+		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:15;}}i:2;s:1632:">
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html"><?= LocaleHelper::translate('menu.home') ?></a></li>
+					<li><a href="/"><?= LocaleHelper::translate('menu.home') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.about') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.devices') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.offer') ?></a></li>
@@ -49,19 +49,24 @@ a:3:{i:0;s:2594:"<!DOCTYPE HTML>
 		</header>
 
 		<!-- Banner -->
+		";s:6:"banner";a:11:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:61:"
 		<section id="banner">
 			<div class="content">
-				<h2><?= LocaleHelper::translate('homepage.banner.title') ?></h2>
-				<p><?= LocaleHelper::translate('homepage.banner.description') ?></p>
+				<h2>";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:55;}i:1;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:124;s:4:"left";a:4:{s:4:"type";i:260;s:5:"value";s:21:"homepage.banner.title";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:55;}s:5:"right";a:4:{s:4:"type";i:265;s:5:"value";s:9:"translate";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:55;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:55;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:56;}i:2;a:4:{s:4:"type";i:357;s:5:"value";s:14:"</h2>
+				<p>";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:56;}i:3;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:124;s:4:"left";a:4:{s:4:"type";i:260;s:5:"value";s:27:"homepage.banner.description";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:56;}s:5:"right";a:4:{s:4:"type";i:265;s:5:"value";s:9:"translate";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:56;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:56;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:58;}i:4;a:4:{s:4:"type";i:357;s:5:"value";s:84:"</p>
 				<ul class="actions special">
-					<li><a href="#" class="button primary"><?= LocaleHelper::translate('homepage.banner.listen') ?></a></li>
-					<li><a href="#" class="button"><?= LocaleHelper::translate('homepage.banner.contact') ?></a></li>
+					<li><a href="#" class="button primary">";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:58;}i:5;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:124;s:4:"left";a:4:{s:4:"type";i:260;s:5:"value";s:22:"homepage.banner.listen";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:58;}s:5:"right";a:4:{s:4:"type";i:265;s:5:"value";s:9:"translate";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:58;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:58;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:59;}i:6;a:4:{s:4:"type";i:357;s:5:"value";s:47:"</a></li>
+					<li><a href="#" class="button">";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:59;}i:7;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:124;s:4:"left";a:4:{s:4:"type";i:260;s:5:"value";s:23:"homepage.banner.contact";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:59;}s:5:"right";a:4:{s:4:"type";i:265;s:5:"value";s:9:"translate";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:59;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:59;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}i:8;a:4:{s:4:"type";i:357;s:5:"value";s:102:"</a></li>
 				</ul>
 			</div>
-			<div class="bg" style="background-image: url('../../images/banner-<?= time() % 4 ?>.jpg')"></div>
+			<div class="bg" style="background-image: url('../../images/banner-";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}i:9;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:37;s:4:"left";a:4:{s:4:"type";i:350;s:4:"name";a:4:{s:4:"type";i:265;s:5:"value";s:4:"time";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}s:5:"right";a:4:{s:4:"type";i:258;s:5:"value";s:1:"4";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:62;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}i:10;a:4:{s:4:"type";i:357;s:5:"value";s:32:".jpg')"></div>
 		</section>
+		";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}}i:3;s:65:"
 
-		";s:7:"content";N;i:1;s:1213:"
+		<!-- Main -->
+		<section id="main" class="container">
+			";s:7:"content";N;i:4;s:1227:"
+		</section>
 
 		<!-- CTA -->
 		<!-- <section id="cta">
