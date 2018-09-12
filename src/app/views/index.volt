@@ -129,7 +129,8 @@
 
 					<section class="box special">
 						<span class="image featured">
-							<img src="{{ firstNews.photoUrl }}" alt="" />
+							<div class="news" style="background-image: url('{{ firstNews.photoUrl }}')"></div>
+							<img src="/images/pic02.jpg" alt="" />
 						</span>
 						<p>{{ firstNews.date }}</p>
 						<h3>{{ firstNews.title }}</h3>
@@ -147,7 +148,8 @@
 
 					<section class="box special">
 						<span class="image featured">
-							<img src="{{ secondNews.photoUrl }}" alt="" />
+							<div class="news" style="background-image: url('{{ secondNews.photoUrl }}')"></div>
+							<img src="/images/pic02.jpg" alt="" />
 						</span>
 						<p>{{ secondNews.date }}</p>
 						<h3>{{ secondNews.title }}</h3>

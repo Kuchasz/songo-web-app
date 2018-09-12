@@ -2357,7 +2357,7 @@
 
 				.box .image.featured .people .person {
 					border-width: 0px;
-					flex:1; 
+					flex: 1; 
 					background-position: center; 
 					background-size: cover;
 					transition: filter 0.25s linear;
@@ -2380,6 +2380,16 @@
 
 			.box .image.featured .people .person:hover {
 				filter: grayscale(100);
+			}
+
+			.box .image.featured .news {
+				border-radius: 6px 6px 0 0;
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				overflow: hidden;
+				background-position: center; 
+				background-size: cover;
 			}
 
 			.box .image.featured:first-child {
