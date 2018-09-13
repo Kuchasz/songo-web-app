@@ -16,6 +16,7 @@
 			<nav id="nav">
 				<ul>
 					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
+					<li><a href="/news">{{ 'menu.news' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.about' |translate}}</a></li>
 					<li><a href="/equipment">{{ 'menu.equipment' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.offer' |translate}}</a></li>
