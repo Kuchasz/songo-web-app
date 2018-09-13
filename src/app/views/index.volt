@@ -17,7 +17,7 @@
 				<ul>
 					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.about' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.devices' |translate}}</a></li>
+					<li><a href="/equipment">{{ 'menu.equipment' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.offer' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.gallery' |translate}}</a></li>

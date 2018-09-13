@@ -22,6 +22,11 @@ $di->set('router', function(){
         "controller" => 'news',
         "action" => 'index'
     ));
+
+    $router->add('/equipment', array(
+        "controller" => 'equipment',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);

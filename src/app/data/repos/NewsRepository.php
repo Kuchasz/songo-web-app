@@ -2,14 +2,14 @@
 
 class NewsRepository {
     public static function getAll(){
-        $news = simplexml_load_file(__DIR__.'/../files/newsy.xml');
+        $newsy = simplexml_load_file(__DIR__.'/../files/newsy.xml');
 
-        $output = [];
+        $newses = [];
 
-        foreach ($news as $new){
-            array_push($output, new News($new));
+        foreach ($newsy as $news){
+            array_push($newses, new News($news));
         }
 
-        return $output;
+        return $newses;
     }
 }
