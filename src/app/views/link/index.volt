@@ -14,7 +14,7 @@
 <h3>{{ category.name |uppercase }}</h3>
 <ul class="alt">
     {% for link in category.links %}
-        <li>{{ link.name }} <i>{{ link.url }}</i></li>
+        <li>{{ link.name }} {% if link.url != 'brak' %}<a href="{{ link.url }}" target="_blank">{{ 'link.index.visit' |translate }}</a>{% endif %}</li>
     {% endfor %}
 </ul>
 {% endfor %}

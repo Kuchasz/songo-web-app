@@ -23,6 +23,7 @@ $translations = [
     'equipment.index.showPhoto' => 'zobacz',
     'link.index.header.title' => 'Linki',
     'link.index.header.description' => 'Polecane przez nas firmy.',
+    'link.index.visit' => 'zobacz',
     'homepage.major.title' => "Jeśli szukasz dobrej zabawy i muzyki<br/>na najwyższym poziomie to dobrze trafiłeś :)",
     'homepage.major.description' => 'Jesteśmy zespołem wokalno-instrumentalnym złożonym <br/>z profesjonalnych muzyków grających 100% muzyki na żywo.',
     'menu.home' => 'Home',
