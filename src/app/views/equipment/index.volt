@@ -14,7 +14,7 @@
 <h3>{{ category.name }}</h3>
 <ul class="alt">
     {% for eq in category.equipment %}
-        <li>{{ eq.name }} <i>{{ eq.type }}</i></li>
+        <li>{{ eq.type }} {{ eq.name }} <a href="images/equipment/{{ eq.photo }}.jpg" data-lightbox="{{ category.name }}" data-title="{{ eq.name }}">{{ 'equipment.index.showPhoto' |translate }}</a></li>
     {% endfor %}
 </ul>
 {% endfor %}

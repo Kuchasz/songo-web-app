@@ -11,7 +11,7 @@
 </header>
 
 {% for category in linkCategories %}
-<h3>{{ category.name }}</h3>
+<h3>{{ category.name |uppercase }}</h3>
 <ul class="alt">
     {% for link in category.links %}
         <li>{{ link.name }} <i>{{ link.url }}</i></li>

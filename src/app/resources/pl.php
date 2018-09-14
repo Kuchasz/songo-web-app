@@ -20,6 +20,7 @@ $translations = [
     'news.index.header.description' => 'Co tam u nas słychać?',
     'equipment.index.header.title' => 'Sprzęt',
     'equipment.index.header.description' => 'Na czym gramy, że tak fajnie nas słychać?',
+    'equipment.index.showPhoto' => 'zobacz',
     'link.index.header.title' => 'Linki',
     'link.index.header.description' => 'Polecane przez nas firmy.',
     'homepage.major.title' => "Jeśli szukasz dobrej zabawy i muzyki<br/>na najwyższym poziomie to dobrze trafiłeś :)",
