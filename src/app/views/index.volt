@@ -25,7 +25,7 @@
 					<li><a href="index.html">{{ 'menu.repertoire' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.movies' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.contact' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.links' |translate}}</a></li>
+					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>
 					<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
 								<ul>

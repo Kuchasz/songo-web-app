@@ -12,7 +12,7 @@ a:9:{i:0;s:267:"<!DOCTYPE HTML>
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:15;}}i:2;s:1713:">
+		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:15;}}i:2;s:1708:">
 			<nav id="nav">
 				<ul>
 					<li><a href="/"><?= LocaleHelper::translate('menu.home') ?></a></li>
@@ -25,7 +25,7 @@ a:9:{i:0;s:267:"<!DOCTYPE HTML>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.repertoire') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.movies') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.contact') ?></a></li>
-					<li><a href="index.html"><?= LocaleHelper::translate('menu.links') ?></a></li>
+					<li><a href="/link"><?= LocaleHelper::translate('menu.links') ?></a></li>
 					<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
 								<ul>
