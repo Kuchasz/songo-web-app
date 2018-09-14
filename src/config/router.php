@@ -37,6 +37,11 @@ $di->set('router', function(){
         "controller" => 'history',
         "action" => 'index'
     ));
+
+    $router->add('/offer', array(
+        "controller" => 'offer',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);

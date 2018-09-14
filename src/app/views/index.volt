@@ -20,7 +20,7 @@
 					<li><a href="/news">{{ 'menu.news' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.about' |translate}}</a></li>
 					<li><a href="/equipment">{{ 'menu.equipment' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.offer' |translate}}</a></li>
+					<li><a href="/offer">{{ 'menu.offer' |translate}}</a></li>
 					<li><a href="/history">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.gallery' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.repertoire' |translate}}</a></li>
