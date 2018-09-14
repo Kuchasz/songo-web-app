@@ -25,7 +25,7 @@
 					<li><a href="index.html">{{ 'menu.gallery' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.repertoire' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.movies' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.contact' |translate}}</a></li>
+					<li><a href="/contact">{{ 'menu.contact' |translate}}</a></li>
 					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>
 					<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
@@ -66,7 +66,7 @@
 		{% endblock%}
 
 		<!-- Main -->
-		<section id="main" class="container">
+		<section id="main" class="container {% block containerClass %}{% endblock %}">
 			{% block content %}{% endblock %}
 		</section>
 

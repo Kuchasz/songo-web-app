@@ -1,4 +1,4 @@
-a:9:{i:0;s:330:"<!DOCTYPE HTML>
+a:11:{i:0;s:330:"<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -13,7 +13,7 @@ a:9:{i:0;s:330:"<!DOCTYPE HTML>
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:16;}}i:2;s:1702:">
+		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:16;}}i:2;s:1700:">
 			<nav id="nav">
 				<ul>
 					<li><a href="/"><?= LocaleHelper::translate('menu.home') ?></a></li>
@@ -25,7 +25,7 @@ a:9:{i:0;s:330:"<!DOCTYPE HTML>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.gallery') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.repertoire') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.movies') ?></a></li>
-					<li><a href="index.html"><?= LocaleHelper::translate('menu.contact') ?></a></li>
+					<li><a href="/contact"><?= LocaleHelper::translate('menu.contact') ?></a></li>
 					<li><a href="/link"><?= LocaleHelper::translate('menu.links') ?></a></li>
 					<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
@@ -63,11 +63,11 @@ a:9:{i:0;s:330:"<!DOCTYPE HTML>
 			</div>
 			<div class="bg" style="background-image: url('../../images/banner-";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}i:9;a:4:{s:4:"type";i:359;s:4:"expr";a:5:{s:4:"type";i:37;s:4:"left";a:4:{s:4:"type";i:350;s:4:"name";a:4:{s:4:"type";i:265;s:5:"value";s:4:"time";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}s:5:"right";a:4:{s:4:"type";i:258;s:5:"value";s:1:"4";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:64;}s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:66;}i:10;a:4:{s:4:"type";i:357;s:5:"value";s:32:".jpg')"></div>
 		</section>
-		";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:66;}}i:3;s:65:"
+		";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:66;}}i:3;s:59:"
 
 		<!-- Main -->
-		<section id="main" class="container">
-			";s:7:"content";N;i:4;s:1279:"
+		<section id="main" class="container ";s:14:"containerClass";N;i:4;s:7:"">
+			";s:7:"content";N;i:5;s:1279:"
 		</section>
 
 		<!-- CTA -->

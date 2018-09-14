@@ -42,6 +42,11 @@ $di->set('router', function(){
         "controller" => 'offer',
         "action" => 'index'
     ));
+
+    $router->add('/contact', array(
+        "controller" => 'contact',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);
