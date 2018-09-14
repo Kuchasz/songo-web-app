@@ -2,7 +2,7 @@
 
 {% block menu %}{% endblock %}
 {% block header %}{% endblock %}
-{%block banner%}{%endblock%}
+{% block banner %}{% endblock %}
 
 {% block content %}
 <header>

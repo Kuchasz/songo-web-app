@@ -32,6 +32,11 @@ $di->set('router', function(){
         "controller" => 'link',
         "action" => 'index'
     ));
+
+    $router->add('/history', array(
+        "controller" => 'history',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);
