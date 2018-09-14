@@ -3,6 +3,7 @@
 {% block menu %}{% endblock %}
 {% block header %}{% endblock %}
 {% block banner %}{% endblock %}
+{% block containerClass %}medium{% endblock %}
 
 {% block content %}
 <header>
