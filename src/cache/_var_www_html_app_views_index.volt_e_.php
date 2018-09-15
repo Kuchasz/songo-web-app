@@ -13,7 +13,7 @@ a:11:{i:0;s:330:"<!DOCTYPE HTML>
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:16;}}i:2;s:1698:">
+		<header id="header" ";s:6:"header";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:11:"class="alt"";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:16;}}i:2;s:1699:">
 			<nav id="nav">
 				<ul>
 					<li><a href="/"><?= LocaleHelper::translate('menu.home') ?></a></li>
@@ -23,7 +23,7 @@ a:11:{i:0;s:330:"<!DOCTYPE HTML>
 					<li><a href="/offer"><?= LocaleHelper::translate('menu.offer') ?></a></li>
 					<li><a href="/history"><?= LocaleHelper::translate('menu.history') ?></a></li>
 					<li><a href="/gallery"><?= LocaleHelper::translate('menu.gallery') ?></a></li>
-					<li><a href="index.html"><?= LocaleHelper::translate('menu.repertoire') ?></a></li>
+					<li><a href="/repertoire"><?= LocaleHelper::translate('menu.repertoire') ?></a></li>
 					<li><a href="index.html"><?= LocaleHelper::translate('menu.movies') ?></a></li>
 					<li><a href="/contact"><?= LocaleHelper::translate('menu.contact') ?></a></li>
 					<li><a href="/link"><?= LocaleHelper::translate('menu.links') ?></a></li>

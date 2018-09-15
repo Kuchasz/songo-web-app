@@ -12,11 +12,14 @@
 </header>
 
 {% for category in categories %}
-<h3>{{ category.name }}</h3>
-<ul class="alt">
-    {% for eq in category.equipment %}
-        <li>{{ eq.type }} {{ eq.name }} <a href="images/equipment/{{ eq.photo }}.jpg" data-lightbox="{{ category.name }}" data-title="{{ eq.name }}">{{ 'equipment.index.showPhoto' |translate }}</a></li>
-    {% endfor %}
-</ul>
+<section class="box">
+    <h3>{{ category.name }}</h3>
+    <ul class="alt">
+        {% for eq in category.equipment %}
+            <li>{{ eq.type }} {{ eq.name }} <a href="images/equipment/{{ eq.photo }}.jpg" data-lightbox="{{ category.name }}" data-title="{{ eq.name }}">{{ 'equipment.index.showPhoto' |translate }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
 {% endfor %}
+
 {% endblock %}

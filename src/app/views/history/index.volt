@@ -10,5 +10,7 @@
     <p>{{ 'history.index.header.description' |translate }}</p>
 </header>
 
-<p>{{ 'history.text' |translate }}</p>
+<section class="box">
+    <p>{{ 'history.text' |translate }}</p>
+</section>
 {% endblock %}

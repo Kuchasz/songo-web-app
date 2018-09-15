@@ -52,6 +52,11 @@ $di->set('router', function(){
         "controller" => 'gallery',
         "action" => 'index'
     ));
+
+    $router->add('/repertoire', array(
+        "controller" => 'repertoire',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);

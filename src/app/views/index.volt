@@ -23,7 +23,7 @@
 					<li><a href="/offer">{{ 'menu.offer' |translate}}</a></li>
 					<li><a href="/history">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="/gallery">{{ 'menu.gallery' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.repertoire' |translate}}</a></li>
+					<li><a href="/repertoire">{{ 'menu.repertoire' |translate}}</a></li>
 					<li><a href="index.html">{{ 'menu.movies' |translate}}</a></li>
 					<li><a href="/contact">{{ 'menu.contact' |translate}}</a></li>
 					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>

@@ -9,6 +9,7 @@
     <h2>{{ 'offer.index.header.title' |translate }}</h2>
     <p>{{ 'offer.index.header.description' |translate }}</p>
 </header>
-
-<p>{{ 'offer.text' |translate }}</p>
+<section class="box">
+    <p>{{ 'offer.text' |translate }}</p>
+</section>
 {% endblock %}
