@@ -3311,6 +3311,21 @@
 		margin-top: -14em;
 	}
 
+/* Gallery */
+
+	.gallery {
+		display: flex;
+		justify-content: center;
+		/* flex-direction: column; */
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+		.gallery a {
+			border-width: 0px;
+			margin: 0px 5px;
+		}
+
 /* Footer */
 
 	#footer {

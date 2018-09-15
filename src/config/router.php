@@ -47,6 +47,11 @@ $di->set('router', function(){
         "controller" => 'contact',
         "action" => 'index'
     ));
+
+    $router->add('/gallery', array(
+        "controller" => 'gallery',
+        "action" => 'index'
+    ));
     
     return $router;
 }, true);
