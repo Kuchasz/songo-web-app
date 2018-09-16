@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <plyty>
 	<plyta>
+		<tytul>Songo</tytul>
 		<okladka>cover_jedynka.jpg</okladka>
-		<opis>Na tej płycie zespół Songo & Zuza wykonuje utwory muzyki tanecznej</opis>
+		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory muzyki tanecznej</opis>
 		<utwory>
 			<utwor>
 				<tytul>What a wonderful world</tytul>
@@ -97,8 +98,9 @@
 		</utwory>
 	</plyta>
 	<plyta>
+		<tytul>The instrumental standards</tytul>
 		<okladka>cover_standardy.jpg</okladka>
-		<opis>Na tej płycie zespół Songo & Zuza wykonuje światowe standardy w wersjach instrumentalnych</opis>
+		<opis>Na tej płycie zespół Songo and Zuza wykonuje światowe standardy w wersjach instrumentalnych</opis>
 		<utwory>
 			<utwor>
 				<tytul>All of me</tytul>
@@ -133,8 +135,9 @@
 		</utwory>
 	</plyta>
 	<plyta>
+		<tytul>Church songs</tytul>
 		<okladka>cover_church.jpg</okladka>
-		<opis>Na tej płycie zespół Songo & Zuza wykonuje utwory grane w kościele</opis>
+		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory grane w kościele</opis>
 		<utwory>
 			<utwor>
 				<tytul>Barka</tytul>
@@ -169,8 +172,9 @@
 		</utwory>
 	</plyta>
 	<plyta>
+		<tytul>Three face saxophone</tytul>
 		<okladka>cover_wojtek.jpg</okladka>
-		<opis>Na tej płycie zespół Songo & Zuza wykonuje znane covery w wersjach na saxofon</opis>
+		<opis>Na tej płycie zespół Songo and Zuza wykonuje znane covery w wersjach na saxofon</opis>
 		<utwory>
 			<utwor>
 				<tytul>I believe i can fly</tytul>
@@ -211,12 +215,13 @@
 		</utwory>
 	</plyta>
 	<plyta>
+		<tytul>New project</tytul>
 		<okladka>cover_wlasne.jpg</okladka>
-		<opis>Ta płyta zawiera autorskie nagrania zespołu Songo & Zuza</opis>
+		<opis>Ta płyta zawiera autorskie nagrania zespołu Songo and Zuza</opis>
 		<utwory>
 			<utwor>
-				<tytul>Andrychowski Rock & Roll</tytul>
-				<autor>słowa: Z.Walczak, muzyka: W.Zięba, z rep.: Songo & Zuza</autor>
+				<tytul>Andrychowski Rock and Roll</tytul>
+				<autor>słowa: Z.Walczak, muzyka: W.Zięba, z rep.: Songo and Zuza</autor>
 				<link>andrychowski_r_n_roll.mp3</link>
 				<dlugosc>185</dlugosc>
 			</utwor>

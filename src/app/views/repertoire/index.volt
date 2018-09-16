@@ -3,40 +3,40 @@
 {% block menu %}{% endblock %}
 {% block header %}{% endblock %}
 {% block banner %}{% endblock %}
-{% block containerClass %}{% endblock %}
+{% block containerClass %}medium{% endblock %}
 
 {% block content %}
 <header>
     <h2>{{ 'repertoire.index.header.title' |translate }}</h2>
     <p>{{ 'repertoire.index.header.description' |translate }}</p>
 </header>
+
+{% for album in albums %}
 <section class="box">
-    <h3>EP Title</h4>
-    <p>
-        <span class="image left">
-            <img src="images/covers/cover_jedynka.jpg"/>
-        </span>
-        Na tej płycie zespół Songo & Zuza wykonuje utwory muzyki tanecznej.
-    </p>
-    <br/>
-    <p>
-        <ul class="alt">
-            <li> 
-                <audio controls>
-                    <source src="songs/abba.mp3" type="audio/mpeg">
-                </audio>
-            </li>
-            <li> 
-                <audio controls>
-                    <source src="songs/all_of_me.mp3" type="audio/mpeg">
-                </audio>
-            </li>
-            <li> 
-                <audio controls>
-                    <source src="songs/hero.mp3" type="audio/mpeg">
-                </audio>
-            </li>
-        </ul>
-    </p>
-</section>
+        <h3>{{ album.title }}</h4>
+        <p>
+            <span class="image left">
+                <img src="images/covers/{{ album.cover }}"/>
+            </span>
+            {{ album.description }}
+        </p>
+        <br/>
+        <p>
+            <ul class="alt">
+                {% for song in album.songs %}
+                    <li style="display: flex; justify-content: space-between;"> 
+                        <header>
+                            <h4>{{ song.title }}</h4>
+                            <p>{{ song.author }}</p>
+                        </header>
+                        <audio controls>
+                            <source src="songs/{{ song.url }}" type="audio/mpeg">
+                        </audio>
+                    </li>
+                {% endfor %}
+            </ul>
+        </p>
+    </section>
+
+{% endfor %}
 {% endblock %}
