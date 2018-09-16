@@ -18,22 +18,25 @@
         </span>
         Na tej płycie zespół Songo & Zuza wykonuje utwory muzyki tanecznej.
     </p>
-   <ol class="alt">
-        <li> 
-            <audio controls>
-                <source src="songs/abba.mp3" type="audio/mpeg">
-            </audio>
-        </li>
-        <li> 
-            <audio controls>
-                <source src="songs/all_of_me.mp3" type="audio/mpeg">
-            </audio>
-        </li>
-        <li> 
-            <audio controls>
-                <source src="songs/hero.mp3" type="audio/mpeg">
-            </audio>
-        </li>
-    </ol>
+    <br/>
+    <p>
+        <ul class="alt">
+            <li> 
+                <audio controls>
+                    <source src="songs/abba.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+            <li> 
+                <audio controls>
+                    <source src="songs/all_of_me.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+            <li> 
+                <audio controls>
+                    <source src="songs/hero.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+        </ul>
+    </p>
 </section>
 {% endblock %}
