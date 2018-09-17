@@ -7,9 +7,16 @@ class RepertoireController extends Controller{
 
         $allAlbums = AlbumRepository::getAll();
 
-        // var_dump($allAlbums); exit;
-
         $this->view->albums = $allAlbums;
+
+        return $this->view->locale = $this->locale;
+    }
+
+    public function listAction() {
+
+        $titles = SongTitleRepository::getAll();
+
+        $this->view->titles = $titles;
 
         return $this->view->locale = $this->locale;
     }

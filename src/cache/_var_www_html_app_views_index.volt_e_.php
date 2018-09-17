@@ -1,12 +1,12 @@
-a:11:{i:0;s:330:"<!DOCTYPE HTML>
+a:11:{i:0;s:332:"<!DOCTYPE HTML>
 <html>
 
 <head>
 	<title>Alpha by HTML5 UP</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/lightbox.min.css" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/lightbox.min.css" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 
 <body class="";s:4:"menu";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:7:"landing";s:4:"file";s:23:"../app/views/index.volt";s:4:"line";i:12;}}i:1;s:84:" is-preload">
@@ -67,7 +67,7 @@ a:11:{i:0;s:330:"<!DOCTYPE HTML>
 
 		<!-- Main -->
 		<section id="main" class="container ";s:14:"containerClass";N;i:4;s:7:"">
-			";s:7:"content";N;i:5;s:1279:"
+			";s:7:"content";N;i:5;s:1338:"
 		</section>
 
 		<!-- CTA -->
@@ -92,7 +92,7 @@ a:11:{i:0;s:330:"<!DOCTYPE HTML>
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://pl-pl.facebook.com/SongoZuza" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 			</ul>
 			<ul class="copyright">
 				<li><?= LocaleHelper::translate('copyrights') ?></li>
@@ -102,14 +102,14 @@ a:11:{i:0;s:330:"<!DOCTYPE HTML>
 	</div>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/lightbox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/lightbox.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
 
 </body>
 

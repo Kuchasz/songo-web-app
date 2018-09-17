@@ -57,6 +57,11 @@ $di->set('router', function(){
         "controller" => 'repertoire',
         "action" => 'index'
     ));
-    
+
+    $router->add('/repertoire/list', array(
+        "controller" => 'repertoire',
+        "action" => 'list'
+    ));
+
     return $router;
 }, true);

@@ -18,7 +18,7 @@
     </header>
     <div class="row">
         <div class="col-3">
-            <a href="#" class="button alt small fit">{{ 'repertoire.index.download' |translate }}</a>
+            <a href="/repertoire/list" class="button alt small fit">{{ 'repertoire.index.download' |translate }}</a>
         </div>
     </div>
 </section>
