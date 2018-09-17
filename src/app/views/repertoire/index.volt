@@ -11,6 +11,18 @@
     <p>{{ 'repertoire.index.header.description' |translate }}</p>
 </header>
 
+<section class="box">
+    <header>
+        <h3>{{ 'repertoire.index.list' |translate }}</h3>
+        <p>{{ 'repertoire.index.hint' |translate }}</p>
+    </header>
+    <div class="row">
+        <div class="col-3">
+            <a href="#" class="button alt small fit">{{ 'repertoire.index.download' |translate }}</a>
+        </div>
+    </div>
+</section>
+
 {% for album in albums %}
 <section class="box">
         <h3>{{ album.title }}</h4>
@@ -22,7 +34,7 @@
         </p>
         <br/>
         <p>
-            <ul class="alt">
+            <ul>
                 {% for song in album.songs %}
                     <li style="display: flex; justify-content: space-between;"> 
                         <header>
