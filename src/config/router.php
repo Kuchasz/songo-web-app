@@ -63,5 +63,11 @@ $di->set('router', function(){
         "action" => 'list'
     ));
 
+    $router->add('/movie', array(
+        "controller" => 'movie',
+        "action" => 'index'
+    ));
+
+
     return $router;
 }, true);

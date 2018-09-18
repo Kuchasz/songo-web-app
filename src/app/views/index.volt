@@ -24,7 +24,7 @@
 					<li><a href="/history">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="/gallery">{{ 'menu.gallery' |translate}}</a></li>
 					<li><a href="/repertoire">{{ 'menu.repertoire' |translate}}</a></li>
-					<li><a href="index.html">{{ 'menu.movies' |translate}}</a></li>
+					<li><a href="/movie">{{ 'menu.movies' |translate}}</a></li>
 					<li><a href="/contact">{{ 'menu.contact' |translate}}</a></li>
 					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>
 					<!-- <li>
@@ -57,8 +57,8 @@
 				<h2>{{ 'homepage.banner.title' |translate }}</h2>
 				<p>{{ 'homepage.banner.description' |translate }}</p>
 				<ul class="actions special">
-					<li><a href="#" class="button primary">{{ 'homepage.banner.listen' |translate}}</a></li>
-					<li><a href="#" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
+					<li><a href="/repertoire" class="button primary">{{ 'homepage.banner.listen' |translate}}</a></li>
+					<li><a href="/contact" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
 				</ul>
 			</div>
 			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
