@@ -8,21 +8,11 @@
     </header>
     <span class="image featured">
         <div class="people">
-            <a href="#" class="person" style="background-image: url('/images/featured-edek.jpg')">
-                <span>Edek</span>
+            {% for person in people %}
+            <a href="#" class="person" style="background-image: url('/images/about/{{ person.image }}')">
+                <span>{{ person.name }}</span>
             </a>
-            <a href="#" class="person" style="background-image: url('/images/featured-piotrek.jpg')">
-                <span>Piotrek</span>
-            </a>
-            <a href="#" class="person" style="background-image: url('/images/featured-zuza.jpg')">
-                <span>Zuza</span>
-            </a>
-            <a href="#" class="person" style="background-image: url('/images/featured-wojtek.jpg')">
-                <span>Wojtek</span>
-            </a>
-            <a href="#" class="person" style="background-image: url('/images/featured-tomek.jpg')">
-                <span>Tomek</span>
-            </a>
+            {% endfor %}
         </div>
         <img src="images/pic01.jpg" alt="" />
         <!-- <div style="width: 1200px; height: 397px; display: block; background: red;"></div> -->

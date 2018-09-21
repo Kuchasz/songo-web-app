@@ -68,6 +68,11 @@ $di->set('router', function(){
         "action" => 'index'
     ));
 
+    $router->add('/about', array(
+        "controller" => 'person',
+        "action" => 'index'
+    ));
+
 
     return $router;
 }, true);
