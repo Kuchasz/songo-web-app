@@ -21,19 +21,7 @@
                 {% endfor %}
             </div>
             <img src="images/pic01.jpg" alt="" />
-            <!-- <div style="width: 1200px; height: 397px; display: block; background: red;"></div> -->
         </span>
     </section>
-
-<!-- {% for category in categories %}
-<section class="box">
-    <h3>{{ category.name }}</h3>
-    <ul class="alt">
-        {% for eq in category.equipment %}
-            <li>{{ eq.type }} {{ eq.name }} <a href="images/equipment/{{ eq.photo }}.jpg" data-lightbox="{{ category.name }}" data-title="{{ eq.name }}">{{ 'equipment.index.showPhoto' |translate }}</a></li>
-        {% endfor %}
-    </ul>
-</section>
-{% endfor %} -->
 
 {% endblock %}
