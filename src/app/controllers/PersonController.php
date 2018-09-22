@@ -11,4 +11,20 @@ class PersonController extends Controller{
 
        return $this->view->locale = $this->locale;
     }
+
+    public function personAction(string $personName){
+
+        $people = PersonRepository::getAll();
+
+        $person = array_filter(
+            $people,
+            function ($e) use (&$personName) {
+                return strtolower($e->name) == strtolower($personName);
+            }
+        );
+
+        $this->view->person = array_values($person)[0];
+
+       return $this->view->locale = $this->locale;
+    }
 }

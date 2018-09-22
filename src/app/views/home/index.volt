@@ -9,7 +9,7 @@
     <span class="image featured">
         <div class="people">
             {% for person in people %}
-            <a href="#" class="person" style="background-image: url('/images/about/{{ person.image }}')">
+            <a href="/about/{{ person.name|e|lower }}" class="person" style="background-image: url('/images/about/{{ person.image }}.jpg')">
                 <span>{{ person.name }}</span>
             </a>
             {% endfor %}
