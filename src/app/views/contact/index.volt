@@ -12,19 +12,28 @@
 </header>
 
 <div class="box">
+    <p>
+    {% if emailWasSubmitted %}
+        {% if emailSent %} 
+            {{ 'contact.emailSendSuccess' | translate }}
+        {% else %}
+            {{ 'contact.emailSendFailure' | translate }}
+        {% endif %}
+    {% endif %}
+    </p>
     <form method="post" action="#">
         <div class="row gtr-50 gtr-uniform">
             <div class="col-6 col-12-mobilep">
-                <input type="text" name="name" id="name" value="" placeholder="{{ 'contact.placeholder.name' |translate }}" />
+                <input type="text" name="name" id="name" value="" placeholder="{{ 'contact.placeholder.name' |translate }}" required/>
             </div>
             <div class="col-6 col-12-mobilep">
-                <input type="email" name="email" id="email" value="" placeholder="{{ 'contact.placeholder.email' |translate }}" />
+                <input type="email" name="email" id="email" value="" placeholder="{{ 'contact.placeholder.email' |translate }}" required/>
             </div>
             <div class="col-12">
-                <input type="text" name="subject" id="subject" value="" placeholder="{{ 'contact.placeholder.subject' |translate }}" />
+                <input type="text" name="subject" id="subject" value="" placeholder="{{ 'contact.placeholder.subject' |translate }}" required/>
             </div>
             <div class="col-12">
-                <textarea name="message" id="message" placeholder="{{ 'contact.placeholder.message' |translate }}" rows="6"></textarea>
+                <textarea name="message" id="message" placeholder="{{ 'contact.placeholder.message' |translate }}" rows="6" required></textarea>
             </div>
             <div class="col-12">
                 <ul class="actions special">
