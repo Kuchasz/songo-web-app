@@ -2,8 +2,10 @@
 <html>
 
 <head>
-	<title>Songo and zuza - profesjonalna obsługa muzyczna imprez</title>
+	<title>Songo and zuza - profesjonalna obsługa muzyczna imprez okolicznościowych i wesel - Andrychów</title>
 	<meta charset="utf-8" />
+	<meta name="Description" content="Zespół muzyczny obsługuj±cym wesela, studniówki, bankiety, bale, i nie tylko. Songo and zuza to zespół pochodz±cy z Sułkowic, obok Andrychowa. Gramy na terenie całej Polski, nie tylko okolic Bielska-Białej, Krakowa, Żywca czy Wadowic.">
+	<meta name="Keywords" content="zespół, muzyczny, wesela, andrychów, kraków, bielsko-biała, oprawa, muzyczna, na żywo, studniówki, wesele">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/lightbox.min.css" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
