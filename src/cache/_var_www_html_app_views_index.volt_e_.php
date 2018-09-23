@@ -1,8 +1,8 @@
-a:11:{i:0;s:419:"<!DOCTYPE HTML>
+a:11:{i:0;s:370:"<!DOCTYPE HTML>
 <html>
 
 <head>
-	<title>Songo and zuza - profesjonalna obsługa muzyczna imprez okoliczno¶ciowych i wesel - Andrychów, Kraków</title>
+	<title>Songo and zuza - profesjonalna obsługa muzyczna imprez</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/lightbox.min.css" />

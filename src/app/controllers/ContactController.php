@@ -17,10 +17,7 @@ class ContactController extends Controller{
     
             $to = 'kontakt@songoandzuza.pl';
     
-            $headers = array(
-                'From' => $email,
-                'Reply-To' => $email
-            );
+            $headers = "Reply-To: $email";
             
             $emailSent = mail($to, $subject, $message, $headers);
             $this->view->emailSent = $emailSent;

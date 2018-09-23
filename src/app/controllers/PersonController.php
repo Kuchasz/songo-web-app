@@ -12,7 +12,7 @@ class PersonController extends Controller{
        return $this->view->locale = $this->locale;
     }
 
-    public function personAction(string $personName){
+    public function personAction($personName){
 
         $people = PersonRepository::getAll();
 
