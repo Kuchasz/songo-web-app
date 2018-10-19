@@ -46,44 +46,11 @@
     </div>
 </section>
 
-<div class="row">
-    <div class="col-6 col-12-narrower">
-
-        <section class="box special">
-            <span class="image featured">
-                <div class="news" style="background-image: url('{{ firstNews.photoUrl }}')"></div>
-                <img src="/images/pic02.jpg" alt="" />
-            </span>
-            <p>{{ firstNews.date }}</p>
-            <h3>{{ firstNews.title }}</h3>
-            <p>{{ firstNews.content }}</p>
-            {% for link in firstNews.links %}
-                <p>{{ 'link.learnMore.text' |translate }} <a href="{{ link }}">{{ 'link.learnMore.anchor' |translate }}</a></p>
-            {% endfor %}
-            <ul class="actions special">
-                <li><a href="/news" class="button alt">{{ 'homepage.learnMore' |translate }}</a></li>
-            </ul>
-        </section>
-
-    </div>
-    <div class="col-6 col-12-narrower">
-
-        <section class="box special">
-            <span class="image featured">
-                <div class="news" style="background-image: url('{{ secondNews.photoUrl }}')"></div>
-                <img src="/images/pic02.jpg" alt="" />
-            </span>
-            <p>{{ secondNews.date }}</p>
-            <h3>{{ secondNews.title }}</h3>
-            <p>{{ secondNews.content }}</p>
-            {% for link in secondNews.links %}
-                <p>{{ 'link.learnMore.text' |translate }} <a href="{{ link }}">{{ 'link.learnMore.anchor' |translate }}</a></p>
-            {% endfor %}
-            <ul class="actions special">
-                    <li><a href="/news" class="button alt">{{ 'homepage.learnMore' |translate }}</a></li>
-            </ul>
-        </section>
-
-    </div>
-</div>
+<a href="https://pl-pl.facebook.com/SongoZuza" target="_blank">
+    <section class="box special facebook">
+        <header class="major">
+                <h3>{{ 'homepage.social.fanpage' |translate}}</h3>
+        </header>
+    </section>
+</a>
 {% endblock %}
