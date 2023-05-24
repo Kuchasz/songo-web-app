@@ -2,14 +2,14 @@
 
 class LinkRepository {
     public static function getAll(){
-        $linki = simplexml_load_file(__DIR__.'/../files/linki.xml');
+        $linksString = file_get_contents(__DIR__.'/../files/links.json');
+        $links = json_decode($linksString, true);
 
-        $links = [];
-
-        foreach ($linki as $link){
-            array_push($links, new Link($link));
+        $finalLinks = [];
+        foreach ($links as $link){
+            array_push($finalLinks, new Link($link));
         }
 
-        return $links;
+        return $finalLinks;
     }
 }
