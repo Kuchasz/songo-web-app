@@ -1,9 +1,9 @@
 <?php
 
-use Phalcon\Loader;
+use Phalcon\Autoload\Loader;
 
 $loader = new Loader();
-$loader->registerDirs([
+$loader->setDirectories([
     '../app/controllers/',
     '../core/',
     '../app/data/entities/',

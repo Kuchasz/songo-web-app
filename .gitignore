@@ -1,1 +1,4 @@
 **/*.volt.php
+**/*e_.php
+node_modules
+src/cache/**/*

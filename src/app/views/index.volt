@@ -15,7 +15,7 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" {% block header %}class="alt"{% endblock %}>
+		<header id="header" {% block header %} class="alt" {% endblock %}>
 			<nav id="nav">
 				<ul>
 					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
@@ -64,7 +64,7 @@
 			</div>
 			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
 		</section>
-		{% endblock%}
+		{% endblock %}
 
 		<!-- Main -->
 		<section id="main" class="container {% block containerClass %}{% endblock %}">

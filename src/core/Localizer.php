@@ -1,13 +1,12 @@
 <?php
 
-use Phalcon\Mvc\User\Component;
 use Phalcon\Translate\Adapter\NativeArray;
 
-class Locale extends Component
+class Localizer
 {
     public function getTranslator()
     {
-        $language = $this->request->getBestLanguage();
+        $language = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 
         $translationFile = '../app/resources/' . $language . '.php';
 
@@ -17,16 +16,12 @@ class Locale extends Component
             require '../app/resources/pl.php';
         }
         
-        return new NativeArray(
-            [
-                'content' => $translations,
-            ]
-        );
+        return $translations;
     }
 }
 
 class LocaleHelper{
     public static function translate($key){
-        return \Phalcon\DI::getDefault()->get('locale')->getTranslator()->_($key);
+        return \Phalcon\Di\Di::getDefault()->get('locale')->getTranslator()[$key];
     }
 }

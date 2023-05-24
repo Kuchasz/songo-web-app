@@ -14,8 +14,9 @@ require "../config/services.php";
 $app = new Application($di);
 
 try {
-
-    $response = $app->handle();
+    $response = $app->handle(
+        $_SERVER["REQUEST_URI"]
+    );
     $response->send();
 
 } catch (\Exception $e) {

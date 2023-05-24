@@ -2,13 +2,6 @@
 
 use Phalcon\Mvc\Router;
 
-
-
-// $router->setDefaultController('home');
-// $router->setDefaultAction('index');
-
-
-
 $di->set('router', function(){
 
     $router = new Router(false);
