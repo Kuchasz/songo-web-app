@@ -15,7 +15,7 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" {% block header %} class="alt" {% endblock %}>
+		<header id="header" {% block header %}class="alt"{% endblock %}>
 			<nav id="nav">
 				<ul>
 					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
@@ -25,28 +25,10 @@
 					<li><a href="/history">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="/gallery">{{ 'menu.gallery' |translate}}</a></li>
 					<li><a href="/repertoire">{{ 'menu.repertoire' |translate}}</a></li>
+					<li><a href="/live">{{ 'menu.live' |translate}}</a></li>
 					<li><a href="/movie">{{ 'menu.movies' |translate}}</a></li>
 					<li><a href="/contact">{{ 'menu.contact' |translate}}</a></li>
 					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>
-					<!-- <li>
-								<a href="#" class="icon fa-angle-down">Layouts</a>
-								<ul>
-									<li><a href="generic.html">Generic</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="elements.html">Elements</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li> 
-                            <li><a href="#" class="button">Sign Up</a></li>
-                            -->
 				</ul>
 			</nav>
 		</header>
@@ -64,31 +46,12 @@
 			</div>
 			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
 		</section>
-		{% endblock %}
+		{% endblock%}
 
 		<!-- Main -->
 		<section id="main" class="container {% block containerClass %}{% endblock %}">
 			{% block content %}{% endblock %}
 		</section>
-
-		<!-- CTA -->
-		<!-- <section id="cta">
-
-			<h2>Sign up for beta access</h2>
-			<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
-
-			<form>
-				<div class="row gtr-50 gtr-uniform">
-					<div class="col-8 col-12-mobilep">
-						<input type="email" name="email" id="email" placeholder="Email Address" />
-					</div>
-					<div class="col-4 col-12-mobilep">
-						<input type="submit" value="Sign Up" class="fit" />
-					</div>
-				</div>
-			</form>
-
-		</section> -->
 
 		<!-- Footer -->
 		<footer id="footer">

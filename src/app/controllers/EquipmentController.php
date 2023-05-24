@@ -9,6 +9,6 @@ class EquipmentController extends Controller{
 
         $this->view->categories = $allCategories;
 
-        return $this->view->locale = $this->locale;
+       return $this->view->locale = $this->locale;
     }
 }

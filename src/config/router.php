@@ -2,6 +2,13 @@
 
 use Phalcon\Mvc\Router;
 
+
+
+// $router->setDefaultController('home');
+// $router->setDefaultAction('index');
+
+
+
 $di->set('router', function(){
 
     $router = new Router(false);
@@ -58,6 +65,11 @@ $di->set('router', function(){
 
     $router->add('/movie', array(
         "controller" => 'movie',
+        "action" => 'index'
+    ));
+
+    $router->add('/live', array(
+        "controller" => 'live',
         "action" => 'index'
     ));
 

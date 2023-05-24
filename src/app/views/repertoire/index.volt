@@ -24,7 +24,7 @@
 </section>
 
 {% for album in albums %}
-<section class="box">
+<section class="box album">
         <h3>{{ album.title }}</h4>
         <p>
             <span class="image left">
@@ -34,7 +34,7 @@
         </p>
         <br/>
         <p>
-            <ul>
+            <ul class="songs-list">
                 {% for song in album.songs %}
                     <li style="display: flex; justify-content: space-between;"> 
                         <header>
