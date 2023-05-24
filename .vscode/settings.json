@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ae2c5c07-77d5-4509-89a7-d0c7e03ff85a/resourceGroups/ravelo-websites/providers/Microsoft.Web/sites/songoandzuza",
+    "appService.deploySubpath": "src"
+}

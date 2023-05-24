@@ -6,6 +6,12 @@
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory muzyki tanecznej</opis>
 		<utwory>
 			<utwor>
+				<tytul>Wasted</tytul>
+				<autor>Margaret</autor>
+				<link>wasted.mp3</link>
+				<dlugosc>227</dlugosc>
+			</utwor>
+			<utwor>
 				<tytul>What a wonderful world</tytul>
 				<autor>L. Armstrong</autor>
 				<link>what.mp3</link>
@@ -140,10 +146,16 @@
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory grane w kościele</opis>
 		<utwory>
 			<utwor>
-				<tytul>Barka</tytul>
+				<tytul>Barka instrumentalnie</tytul>
 				<autor>C. Gabarain</autor>
 				<link>barka.mp3</link>
 				<dlugosc>199</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Barka</tytul>
+				<autor>utwór nagrany z okazji stulecia urodzin Jana Pawła II</autor>
+				<link>barka2.mp3</link>
+				<dlugosc>278</dlugosc>
 			</utwor>
 			<utwor>
 				<tytul>Ave Maria</tytul>
@@ -176,6 +188,12 @@
 		<okladka>cover_wojtek.jpg</okladka>
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje znane covery w wersjach na saxofon</opis>
 		<utwory>
+			<utwor>
+				<tytul>Isn't she lovely</tytul>
+				<autor>S. Wonder</autor>
+				<link>isnt_she_lovely.mp3</link>
+				<dlugosc>128</dlugosc>
+			</utwor>
 			<utwor>
 				<tytul>I believe i can fly</tytul>
 				<autor>R. Kelly</autor>
