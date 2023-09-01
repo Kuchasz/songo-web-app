@@ -19,8 +19,7 @@ $di->setShared(
                 'extension' => '.php',
                 'separator' => '_',
                 'stat'      => true,
-                'path'      => '../cache/',
-                'prefix'    => '-prefix-',
+                'path'      => '../cache/'
             ]
         );
 

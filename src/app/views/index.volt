@@ -20,7 +20,6 @@
 				<ul>
 					<li><a href="/">{{ 'menu.home' |translate}}</a></li>
 					<li><a href="/about">{{ 'menu.about' |translate}}</a></li>
-					<li><a href="/equipment">{{ 'menu.equipment' |translate}}</a></li>
 					<li><a href="/offer">{{ 'menu.offer' |translate}}</a></li>
 					<li><a href="/history">{{ 'menu.history' |translate}}</a></li>
 					<li><a href="/gallery">{{ 'menu.gallery' |translate}}</a></li>
@@ -28,7 +27,6 @@
 					<li><a href="/live">{{ 'menu.live' |translate}}</a></li>
 					<li><a href="/movie">{{ 'menu.movies' |translate}}</a></li>
 					<li><a href="/contact">{{ 'menu.contact' |translate}}</a></li>
-					<li><a href="/link">{{ 'menu.links' |translate}}</a></li>
 				</ul>
 			</nav>
 		</header>
