@@ -6,100 +6,138 @@
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory muzyki tanecznej</opis>
 		<utwory>
 			<utwor>
-				<tytul>Wasted</tytul>
-				<autor>Margaret</autor>
-				<link>wasted.mp3</link>
-				<dlugosc>227</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>What a wonderful world</tytul>
-				<autor>L. Armstrong</autor>
-				<link>what.mp3</link>
-				<dlugosc>295</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Zatańczysz ze mną</tytul>
-				<autor>K. Krawczyk</autor>
-				<link>zatanczysz.mp3</link>
-				<dlugosc>223</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Wiązanka walców</tytul>
-				<autor>Tw. Ludowa</autor>
-				<link>walce.mp3</link>
-				<dlugosc>251</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Polka dziadek</tytul>
-				<autor>Tw. Ludowa</autor>
-				<link>polka.mp3</link>
-				<dlugosc>232</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>W drodze do Fontainbleau</tytul>
-				<autor>K. Giżowska</autor>
-				<link>wdrodze.mp3</link>
-				<dlugosc>466</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Kanikuły</tytul>
-				<autor>Code Red</autor>
-				<link>kanikuly.mp3</link>
-				<dlugosc>223</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Mamma mia</tytul>
-				<autor>ABBA</autor>
-				<link>abba.mp3</link>
-				<dlugosc>220</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Niech żyje wolność</tytul>
-				<autor>Boys</autor>
-				<link>niech.mp3</link>
-				<dlugosc>243</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Without you</tytul>
-				<autor>M. Carey</autor>
-				<link>without.mp3</link>
-				<dlugosc>174</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Yackcity sax</tytul>
-				<autor>A. Hamond</autor>
-				<link>benny.mp3</link>
-				<dlugosc>158</dlugosc>
-			</utwor>
-			<utwor>
 				<tytul>I will always love you</tytul>
 				<autor>W. Houston</autor>
-				<link>i_will_always_love_you.mp3</link>
+				<link>t_1_i_will_always_love_you.mp3</link>
 				<dlugosc>289</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Marsz niemiecki</tytul>
-				<autor>Tw. Ludowa</autor>
-				<link>marsz_niemiecki.mp3</link>
-				<dlugosc>160</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Była sobie dziewczyna</tytul>
-				<autor>gitara Hawajska</autor>
-				<link>byla_sobie_dziewczyna.mp3</link>
-				<dlugosc>245</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Do Ciebie mamo</tytul>
-				<autor>V. Villas</autor>
-				<link>mamo.mp3</link>
-				<dlugosc>226</dlugosc>
 			</utwor>
 			<utwor>
 				<tytul>Takiego Janicka</tytul>
 				<autor>Siklawa</autor>
-				<link>takiego_janicka.mp3</link>
+				<link>t_2_takiego_janicka.mp3</link>
 				<dlugosc>239</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Zatańczysz ze mną</tytul>
+				<autor>K. Krawczyk</autor>
+				<link>t_3_zatanczysz_ze_mna.mp3</link>
+				<dlugosc>223</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Kocham Cię</tytul>
+				<autor>S. Uniatowski</autor>
+				<link>t_4_kocham_cie.mp3</link>
+				<dlugosc>223</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Wasted – Pa pa</tytul>
+				<autor>Margaret</autor>
+				<link>t_5_wasted.mp3</link>
+				<dlugosc>227</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Polka dziadek</tytul>
+				<autor>z rep. lud.</autor>
+				<link>t_6_polka_dziadek.mp3</link>
+				<dlugosc>232</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>What a wonderful world</tytul>
+				<autor>L. Armstrong</autor>
+				<link>t_7_what_a_wonderful_world.mp3</link>
+				<dlugosc>295</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Marsz niemiecki</tytul>
+				<autor>z rep. lud.</autor>
+				<link>t_8_marsz_niemiecki.mp3</link>
+				<dlugosc>160</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Mamma mia</tytul>
+				<autor>ABBA</autor>
+				<link>t_9_mamma_mia.mp3</link>
+				<dlugosc>220</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Yackcity sax</tytul>
+				<autor>B. Randolph</autor>
+				<link>t_10_yackety_sax.mp3</link>
+				<dlugosc>158</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Wiązanka walców</tytul>
+				<autor>z rep. lud.</autor>
+				<link>t_11_wiazanka_walcow.mp3</link>
+				<dlugosc>251</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Niech żyje wolność</tytul>
+				<autor>Boys</autor>
+				<link>t_12_niech_zyje_wolnosc.mp3</link>
+				<dlugosc>243</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Kanikuły</tytul>
+				<autor>Code Red</autor>
+				<link>t_13_kanikuly.mp3</link>
+				<dlugosc>223</dlugosc>
+			</utwor>
+		</utwory>
+	</plyta>
+	<plyta>
+		<tytul>New project</tytul>
+		<okladka>cover_wlasne.jpg</okladka>
+		<opis>Ta płyta zawiera autorskie nagrania zespołu Songo and Zuza</opis>
+		<utwory>
+			<utwor>
+				<tytul>Andrychowski Rock and Roll</tytul>
+				<autor>z rep. Songo &amp; Zuza</autor>
+				<link>n_1_andrychowski_rock_and_roll.mp3</link>
+				<dlugosc>185</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Robie to co chce</tytul>
+				<autor>z rep. Songo &amp; Zuza and THOMAS</autor>
+				<link>n_2_robie_co_chce.mp3</link>
+				<dlugosc>185</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Chciałabym ci dać chciała</tytul>
+				<autor>z rep. Songo &amp; Zuza</autor>
+				<link>n_3_chciala_bym_ci_dac_chciala.mp3</link>
+				<dlugosc>185</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Jesteś mój</tytul>
+				<autor>z rep. Songo &amp; Zuza</autor>
+				<link>n_4_jestes_moj.mp3</link>
+				<dlugosc>185</dlugosc>
+			</utwor>
+		</utwory>
+	</plyta>
+		<plyta>
+		<tytul>Święta z Songo &amp; Zuza</tytul>
+		<okladka>cover_swiateczne.jpg</okladka>
+		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory świąteczne i religijne</opis>
+		<utwory>
+			<utwor>
+				<tytul>Jingle Bells</tytul>
+				<autor>utwór świąteczny</autor>
+				<link>s_1_jingle_bells.mp3</link>
+				<dlugosc>199</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Gdy Śliczna Panna</tytul>
+				<autor>kołysanka</autor>
+				<link>s_2_gdy_sliczna_panna.mp3</link>
+				<dlugosc>93</dlugosc>
+			</utwor>
+			<utwor>
+				<tytul>Barka</tytul>
+				<autor>utwór nagrany z okazji stulecia  urodzin Jana Pawła II</autor>
+				<link>s_3_barka.mp3</link>
+				<dlugosc>127</dlugosc>
 			</utwor>
 		</utwory>
 	</plyta>
@@ -152,12 +190,6 @@
 				<dlugosc>199</dlugosc>
 			</utwor>
 			<utwor>
-				<tytul>Barka</tytul>
-				<autor>utwór nagrany z okazji stulecia urodzin Jana Pawła II</autor>
-				<link>barka2.mp3</link>
-				<dlugosc>278</dlugosc>
-			</utwor>
-			<utwor>
 				<tytul>Ave Maria</tytul>
 				<autor>F. Schubert</autor>
 				<link>ave_maria.mp3</link>
@@ -174,74 +206,6 @@
 				<autor>J. Goldsmith</autor>
 				<link>the_water_is_wide.mp3</link>
 				<dlugosc>241</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Tears in Heaven</tytul>
-				<autor>E. Clapton</autor>
-				<link>tears_in_heaven.mp3</link>
-				<dlugosc>272</dlugosc>
-			</utwor>
-		</utwory>
-	</plyta>
-	<plyta>
-		<tytul>Three face saxophone</tytul>
-		<okladka>cover_wojtek.jpg</okladka>
-		<opis>Na tej płycie zespół Songo and Zuza wykonuje znane covery w wersjach na saxofon</opis>
-		<utwory>
-			<utwor>
-				<tytul>Isn't she lovely</tytul>
-				<autor>S. Wonder</autor>
-				<link>isnt_she_lovely.mp3</link>
-				<dlugosc>128</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>I believe i can fly</tytul>
-				<autor>R. Kelly</autor>
-				<link>i_believe_i_can_fly.mp3</link>
-				<dlugosc>308</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Morning</tytul>
-				<autor>Kenny G.</autor>
-				<link>morning.mp3</link>
-				<dlugosc>245</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Hero</tytul>
-				<autor>M. Carey</autor>
-				<link>hero.mp3</link>
-				<dlugosc>257</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Body and soul</tytul>
-				<autor>J. Green</autor>
-				<link>body_and_soul.mp3</link>
-				<dlugosc>307</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Trance</tytul>
-				<autor>W. Zięba</autor>
-				<link>trance.mp3</link>
-				<dlugosc>166</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Walking Around</tytul>
-				<autor>E. Marienthal</autor>
-				<link>walking_around.mp3</link>
-				<dlugosc>132</dlugosc>
-			</utwor>
-		</utwory>
-	</plyta>
-	<plyta>
-		<tytul>New project</tytul>
-		<okladka>cover_wlasne.jpg</okladka>
-		<opis>Ta płyta zawiera autorskie nagrania zespołu Songo and Zuza</opis>
-		<utwory>
-			<utwor>
-				<tytul>Andrychowski Rock and Roll</tytul>
-				<autor>słowa: Z.Walczak, muzyka: W.Zięba, z rep.: Songo and Zuza</autor>
-				<link>andrychowski_r_n_roll.mp3</link>
-				<dlugosc>185</dlugosc>
 			</utwor>
 		</utwory>
 	</plyta>

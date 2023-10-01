@@ -23,16 +23,6 @@ $di->set('router', function(){
         "action" => 'index'
     ));
 
-    $router->add('/equipment', array(
-        "controller" => 'equipment',
-        "action" => 'index'
-    ));
-
-    $router->add('/link', array(
-        "controller" => 'link',
-        "action" => 'index'
-    ));
-
     $router->add('/history', array(
         "controller" => 'history',
         "action" => 'index'

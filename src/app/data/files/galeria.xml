@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <zdjecia>
     <zdjecie>
+        <miniatura>e-foto-1-m</miniatura>
+        <powiekszone>e-foto-1</powiekszone>
+    </zdjecie>
+        <zdjecie>
+        <miniatura>e-foto-2-m</miniatura>
+        <powiekszone>e-foto-2</powiekszone>
+    </zdjecie>
+        <zdjecie>
+        <miniatura>e-foto-3-m</miniatura>
+        <powiekszone>e-foto-3</powiekszone>
+    </zdjecie>
+    <zdjecie>
         <miniatura>foto-1-m</miniatura>
         <powiekszone>foto-1</powiekszone>
     </zdjecie>
