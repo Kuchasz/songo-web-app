@@ -9,6 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta property="og:image" content="http://songoandzuza.pl/images/gallery/4.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="twitter:image" content="http://songoandzuza.pl/images/gallery/4.jpg" />
+	<meta property="twitter:image:type" content="image/jpeg" />
 	<link rel="stylesheet" href="/assets/css/lightbox.min.css" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
 </head>
