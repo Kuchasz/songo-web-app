@@ -3,6 +3,8 @@
 $translations = [
     'homepage.banner.contact' => 'Zapytaj o termin i cenę!',
     'homepage.banner.listen' => 'Posłuchaj nas!',
+    'homepage.banner.fanpage' => 'Nasz fanpage!',
+    'homepage.banner.facebook' => 'Nasz profil na fb!',
     'homepage.banner.description' => 'Profesjonalna obsługa imprez',
     'homepage.banner.title' => 'Songo and Zuza',
     'homepage.features.stage.header' => 'Własny sprzęt',
