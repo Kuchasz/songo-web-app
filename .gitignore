@@ -2,3 +2,4 @@
 **/*e_.php
 node_modules
 src/cache/**/*
+src/public/images/.DS_Store

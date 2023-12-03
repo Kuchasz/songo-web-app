@@ -46,7 +46,7 @@
 					<li><a href="/contact" class="button">{{ 'homepage.banner.contact' |translate}}</a></li>
 				</ul>
 			</div>
-			<div class="bg" style="background-image: url('../../images/banner-{{time()%4}}.jpg')"></div>
+			<div class="bg" style="background-image: url('../../images/banner-{{time()%2}}.jpg')"></div>
 		</section>
 		{% endblock%}
 
