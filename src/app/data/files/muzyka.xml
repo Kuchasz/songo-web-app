@@ -60,9 +60,9 @@
 				<dlugosc>220</dlugosc>
 			</utwor>
 			<utwor>
-				<tytul>Yackcity sax</tytul>
+				<tytul>Yakety sax</tytul>
 				<autor>B. Randolph</autor>
-				<link>t_10_yackety_sax.mp3</link>
+				<link>t_10_yakety_sax.mp3</link>
 				<dlugosc>158</dlugosc>
 			</utwor>
 			<utwor>
@@ -70,12 +70,6 @@
 				<autor>z rep. lud.</autor>
 				<link>t_11_wiazanka_walcow.mp3</link>
 				<dlugosc>251</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>Niech żyje wolność</tytul>
-				<autor>Boys</autor>
-				<link>t_12_niech_zyje_wolnosc.mp3</link>
-				<dlugosc>243</dlugosc>
 			</utwor>
 			<utwor>
 				<tytul>Kanikuły</tytul>
@@ -200,12 +194,6 @@
 				<autor>J.S. Bach</autor>
 				<link>ave_maria_bach.mp3</link>
 				<dlugosc>127</dlugosc>
-			</utwor>
-			<utwor>
-				<tytul>The water is wide</tytul>
-				<autor>J. Goldsmith</autor>
-				<link>the_water_is_wide.mp3</link>
-				<dlugosc>241</dlugosc>
 			</utwor>
 		</utwory>
 	</plyta>

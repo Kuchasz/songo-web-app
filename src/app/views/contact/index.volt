@@ -12,7 +12,7 @@
 </header>
 <div class="box">
     <div class="row">
-        <div class="col-4">
+        <div>
             <h3>{{ 'contact.index.phones' |translate }}</h3>
             <p>
                 600 632 798 - Piotrek<br />
@@ -20,14 +20,14 @@
                 606 517 661 - Edek<br />
             </p>
         </div>
-        <div class="col-4">
+        <div>
             <h3>{{ 'contact.index.emails' |translate }}</h3>
             <p>
                 kontakt@songoandzuza.pl<br />
                 songo2000@interia.eu<br />
             </p>
         </div>
-        <div class="col-4">
+        <div>
 
             <h3>{{ 'contact.index.address' |translate }}</h3>
             <p>
@@ -37,7 +37,7 @@
         </div>
     </div>
 </div>
-<div class="box">
+{# <div class="box">
     <p>
         {% if emailWasSubmitted %}
         {% if emailSent %}
@@ -72,5 +72,5 @@
             </div>
         </div>
     </form>
-</div>
+</div> #}
 {% endblock %}

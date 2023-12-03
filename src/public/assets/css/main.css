@@ -1813,6 +1813,7 @@ code {
 @media screen and (max-width: 480px) {
     .row {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         box-sizing: border-box;
         align-items: stretch;
