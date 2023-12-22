@@ -77,6 +77,12 @@
 				<link>t_13_kanikuly.mp3</link>
 				<dlugosc>223</dlugosc>
 			</utwor>
+			<utwor>
+				<tytul>Lilly was here</tytul>
+				<autor>Code. Dulfer</autor>
+				<link>t_14_lilly_was_here.mp3</link>
+				<dlugosc>223</dlugosc>
+			</utwor>
 		</utwory>
 	</plyta>
 	<plyta>
@@ -110,7 +116,7 @@
 			</utwor>
 		</utwory>
 	</plyta>
-		<plyta>
+	<plyta>
 		<tytul>Święta z Songo &amp; Zuza</tytul>
 		<okladka>cover_swiateczne.jpg</okladka>
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory świąteczne i religijne</opis>

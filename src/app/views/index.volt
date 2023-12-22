@@ -52,10 +52,10 @@
 					</ul>
 					<ul class="actions special">
 						<li>
-							<a href="https://www.facebook.com/songoandzuza" target="_blank" class="button primary">{{ 'homepage.banner.fanpage' |translate}}</a>
+							<a href="https://www.facebook.com/SongoZuza" target="_blank" class="button primary">{{ 'homepage.banner.fanpage' |translate}}</a>
 						</li>
 						<li>
-							<a href="https://www.facebook.com/SongoZuza" target="_blank" class="button">{{ 'homepage.banner.facebook' |translate}}</a>
+							<a href="https://www.facebook.com/songoandzuza" target="_blank" class="button">{{ 'homepage.banner.facebook' |translate}}</a>
 						</li>
 					</ul>
 				</div>

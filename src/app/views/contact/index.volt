@@ -18,7 +18,6 @@
 				<p>
 					<a href="tel:+48600632798">600 632 798 - Piotrek</a><br/>
 					<a href="tel:+48604671973">604 671 973 - Wojtek</a><br/>
-					<a href="tel:+48606517661">606 517 661 - Edek</a><br/>
 				</p>
 			</div>
 			<div>
@@ -39,39 +38,39 @@
 		</div>
 	</div>
 	{# <div class="box">
-				    <p>
-				        {% if emailWasSubmitted %}
-				        {% if emailSent %}
-				        {{ 'contact.emailSendSuccess' | translate }}
-				        {% else %}
-				        {{ 'contact.emailSendFailure' | translate }}
-				        {% endif %}
-				        {% endif %}
-				    </p>
-				    <form method="post" action="#">
-				        <div class="row gtr-50 gtr-uniform">
-				            <div class="col-6 col-12-mobilep">
-				                <input type="text" name="name" id="name" value="" placeholder="{{ 'contact.placeholder.name' |translate }}"
-				                    required />
-				            </div>
-				            <div class="col-6 col-12-mobilep">
-				                <input type="email" name="email" id="email" value="" placeholder="{{ 'contact.placeholder.email' |translate }}"
-				                    required />
-				            </div>
-				            <div class="col-12">
-				                <input type="text" name="subject" id="subject" value="" placeholder="{{ 'contact.placeholder.subject' |translate }}"
-				                    required />
-				            </div>
-				            <div class="col-12">
-				                <textarea name="message" id="message" placeholder="{{ 'contact.placeholder.message' |translate }}" rows="6"
-				                    required></textarea>
-				            </div>
-				            <div class="col-12">
-				                <ul class="actions special">
-				                    <li><input type="submit" value="{{ 'contact.send' |translate }}" /></li>
-				                </ul>
-				            </div>
-				        </div>
-				    </form>
-				</div> #}
+					    <p>
+					        {% if emailWasSubmitted %}
+					        {% if emailSent %}
+					        {{ 'contact.emailSendSuccess' | translate }}
+					        {% else %}
+					        {{ 'contact.emailSendFailure' | translate }}
+					        {% endif %}
+					        {% endif %}
+					    </p>
+					    <form method="post" action="#">
+					        <div class="row gtr-50 gtr-uniform">
+					            <div class="col-6 col-12-mobilep">
+					                <input type="text" name="name" id="name" value="" placeholder="{{ 'contact.placeholder.name' |translate }}"
+					                    required />
+					            </div>
+					            <div class="col-6 col-12-mobilep">
+					                <input type="email" name="email" id="email" value="" placeholder="{{ 'contact.placeholder.email' |translate }}"
+					                    required />
+					            </div>
+					            <div class="col-12">
+					                <input type="text" name="subject" id="subject" value="" placeholder="{{ 'contact.placeholder.subject' |translate }}"
+					                    required />
+					            </div>
+					            <div class="col-12">
+					                <textarea name="message" id="message" placeholder="{{ 'contact.placeholder.message' |translate }}" rows="6"
+					                    required></textarea>
+					            </div>
+					            <div class="col-12">
+					                <ul class="actions special">
+					                    <li><input type="submit" value="{{ 'contact.send' |translate }}" /></li>
+					                </ul>
+					            </div>
+					        </div>
+					    </form>
+					</div> #}
 {% endblock %}

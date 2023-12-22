@@ -28,6 +28,14 @@
 		</section>
 	</a>
 
+	<a href="https://maps.app.goo.gl/SqLesb4mxG9y8CiC9" target="_blank">
+		<section class="box special facebook">
+			<header class="major">
+				<h3>{{ 'homepage.social.reviews' |translate}}</h3>
+			</header>
+		</section>
+	</a>
+
 	<section class="box special features">
 		<div class="features-row">
 			<section>
