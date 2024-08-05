@@ -24,7 +24,6 @@
 				<h3>{{ 'contact.index.emails' |translate }}</h3>
 				<p>
 					<a href="mailto:kontakt@songoandzuza.pl">kontakt@songoandzuza.pl</a><br/>
-					<a href="mailto:songo2000@interia.eu">songo2000@interia.eu</a><br/>
 				</p>
 			</div>
 			<div>
