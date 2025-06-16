@@ -1,6 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <zdjecia>
     <zdjecie>
+        <miniatura>d-foto-1-m</miniatura>
+        <powiekszone>d-foto-1</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-2-m</miniatura>
+        <powiekszone>d-foto-2</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-3-m</miniatura>
+        <powiekszone>d-foto-3</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-4-m</miniatura>
+        <powiekszone>d-foto-4</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-5-m</miniatura>
+        <powiekszone>d-foto-5</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-6-m</miniatura>
+        <powiekszone>d-foto-6</powiekszone>
+    </zdjecie>
+    <zdjecie>
+        <miniatura>d-foto-7-m</miniatura>
+        <powiekszone>d-foto-7</powiekszone>
+    </zdjecie>
+    <zdjecie>
         <miniatura>e-foto-1-m</miniatura>
         <powiekszone>e-foto-1</powiekszone>
     </zdjecie>

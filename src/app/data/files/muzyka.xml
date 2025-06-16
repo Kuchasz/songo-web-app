@@ -6,6 +6,12 @@
 		<opis>Na tej płycie zespół Songo and Zuza wykonuje utwory muzyki tanecznej</opis>
 		<utwory>
 			<utwor>
+				<tytul>Tańczę z nim do rana</tytul>
+				<autor>Majk</autor>
+				<link>t_15_tancze_z_nim_do_rana.mp3</link>
+				<dlugosc>289</dlugosc>
+			</utwor>
+			<utwor>
 				<tytul>I will always love you</tytul>
 				<autor>W. Houston</autor>
 				<link>t_1_i_will_always_love_you.mp3</link>
